@@ -9,7 +9,7 @@ export const createProduct = async (req, res) => {
             logger.error("Missing required fields")
             return res.status(400).json({error:"Missing required fields"})
         }
-        const product = await prisma.product.create({
+        const product = await prisma.Product.create({
             data:{
                 name,
                 price,
