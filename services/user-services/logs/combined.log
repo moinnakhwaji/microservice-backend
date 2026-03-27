@@ -1,1 +1,15 @@
 {"level":"info","message":"::1 - - [27/Mar/2026:13:52:45 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"User created successfully","service":"user-service"}
+{"level":"info","message":"::1 - - [27/Mar/2026:17:54:16 +0000] \"POST /users/ HTTP/1.1\" 201 201 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"User fetched: 1","service":"user-service"}
+{"level":"info","message":"::1 - - [27/Mar/2026:18:01:21 +0000] \"GET /users/1 HTTP/1.1\" 200 201 \"-\" \"axios/1.13.6\"","service":"user-service"}
+{"level":"info","message":"User fetched: 1","service":"user-service"}
+{"level":"info","message":"::1 - - [27/Mar/2026:18:03:43 +0000] \"GET /users/1 HTTP/1.1\" 200 201 \"-\" \"axios/1.13.6\"","service":"user-service"}
+{"level":"info","message":"User fetched: 1","service":"user-service"}
+{"level":"info","message":"::1 - - [27/Mar/2026:18:07:21 +0000] \"GET /users/1 HTTP/1.1\" 200 201 \"-\" \"axios/1.13.6\"","service":"user-service"}
+{"level":"warn","message":"User not found: 2","service":"user-service"}
+{"level":"info","message":"::1 - - [27/Mar/2026:18:09:09 +0000] \"GET /users/2 HTTP/1.1\" 404 26 \"-\" \"axios/1.13.6\"","service":"user-service"}
+{"level":"info","message":"User fetched: 1","service":"user-service"}
+{"level":"info","message":"::1 - - [27/Mar/2026:18:09:19 +0000] \"GET /users/1 HTTP/1.1\" 200 201 \"-\" \"axios/1.13.6\"","service":"user-service"}
+{"level":"warn","message":"User not found: 2","service":"user-service"}
+{"level":"info","message":"::1 - - [27/Mar/2026:18:11:15 +0000] \"GET /users/2 HTTP/1.1\" 404 26 \"-\" \"axios/1.13.6\"","service":"user-service"}
